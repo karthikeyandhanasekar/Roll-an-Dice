@@ -1,7 +1,7 @@
 
 var guess = Math.floor(Math.random()*100) +1 
 // multiply by limit that means 100 here
-alert(guess)
+//alert(guess)
 
 function calc()
 {
