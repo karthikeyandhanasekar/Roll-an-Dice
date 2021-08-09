@@ -1,0 +1,47 @@
+
+body
+{
+    background-color: orange;
+}
+.container
+{
+    border : solid;
+    border-radius: 2%;
+    padding: 2em;
+    background-color: indigo;
+    color: white;
+    width: fit-content;
+    margin: 10% auto;
+    box-shadow: 10px 10px indigo;
+}
+h1
+{
+    text-align: center;
+}
+#number
+{
+    background-color: indigo;
+
+    margin-left: 7rem;
+    border: none;
+    border-bottom: solid;
+    border-color: white;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+#ans
+{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+input[type="submit"]
+{
+    border: none;
+    background-color: indigo;
+    font-size: 2rem;
+    color: white;
+
+
+}
