@@ -18,23 +18,35 @@ h1
 {
     text-align: center;
 }
-#number
+
+.number
 {
     background-color: indigo;
 
-    margin-left: 7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     border: none;
+    font-size: 2rem;
     border-bottom: solid;
     border-color: white;
-    font-size: 2rem;
     color: white;
     text-align: center;
+    width: 10%;
+
+
 }
 #ans
 {
     text-align: center;
     font-size: 2rem;
+
     
+}
+label
+{
+    text-align: center;
+    font-size: 2rem;
+
 }
 input[type="submit"]
 {
