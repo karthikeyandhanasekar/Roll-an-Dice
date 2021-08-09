@@ -20,7 +20,7 @@ function calc()
         if (player2.value  >= target)
         {
             document.getElementById("ans").innerHTML = "Player 2 Wins"
-            docu
+            
         }
     }
     if (count%2 != 0)
@@ -29,7 +29,7 @@ function calc()
         var dice1 = Math.floor(Math.random()*6) +1 
 
         player1.value =  parseInt(player1.value)+  dice1
-        if (player2.value  >= target)
+        if (player1.value  >= target)
         {
             document.getElementById("ans").innerHTML = "Player 1 Wins"
         }
