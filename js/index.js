@@ -24,7 +24,7 @@ function calc()
     else if (n > guess)
     document.getElementById("ans").innerHTML = "So close ! Try giving lesser number &#128517"
     else if (n < guess)
-    document.getElementById("ans").innerHTML = "So close ! Try giving greater number"
+    document.getElementById("ans").innerHTML = "So close ! Try giving greater number &#128517"
 
     else
     document.getElementById("ans").innerHTML = "It ok , Don't Give Up."
